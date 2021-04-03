@@ -1,0 +1,20 @@
+.NavButton{
+    width: 80px;
+    margin: 0 5px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    flex: 0 0 auto;
+
+}
+
+.NavButton:hover{
+    background-color: rgb(41, 65, 145);
+}
+
+.active{
+    background-color: rgb(38, 58, 126);
+    pointer-events: none;
+}

@@ -1,0 +1,10 @@
+.outer{
+    height: 25px;
+    background-color: rgb(60, 123, 206);
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+}

@@ -1,0 +1,31 @@
+.outer{
+    position: relative;
+}
+
+.sortNav{
+    background-color: rgb(90, 124, 218);
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid white;
+}
+
+.sortItem{
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0 10px;
+}
+
+.sortItem:hover{
+    background-color: rgb(67, 96, 175);
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(67, 96, 175);
+}
+
+.main{
+    background-color: gray;
+}

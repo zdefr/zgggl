@@ -1,0 +1,14 @@
+.outer{
+    margin-top: 75px;
+    display: flex;
+}
+
+.aside{
+    flex: 1 1 auto;
+}
+
+.main{
+    flex: 0 0 auto;
+    width: 55%;
+    min-width: 800px;
+}

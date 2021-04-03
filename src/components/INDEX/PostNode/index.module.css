@@ -1,0 +1,58 @@
+.outer{
+    height: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.outer:hover{
+    box-shadow: 0 0 5px  rgb(184, 184, 184) inset;
+}
+
+.authorBox{
+    width: 150px;
+    height: 100px;
+    line-height: 20px;
+}
+
+.shot{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tag{
+    color: grey;
+    margin-right: 15px;
+}
+
+.tag:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.author{
+    color: hotpink;
+    margin-right: 10px;
+}
+
+.author:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.replyCount{
+    color: gray;
+    margin-right: 10px;
+}
