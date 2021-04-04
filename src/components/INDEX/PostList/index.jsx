@@ -26,8 +26,8 @@ export default class PostList extends Component {
                 </div>
                 <div className={style.main}>
                     {
-                        list.posts.map((item)=>{
-                            return <PostNode data={item} key={item.id}/> 
+                        list.posts.map((item, index)=>{
+                            return <PostNode data={item} key={index}/> 
                         })
                     }
                 </div>

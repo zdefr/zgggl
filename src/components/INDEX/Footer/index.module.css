@@ -1,0 +1,7 @@
+.outer{
+    border-top: 3px solid black;
+    margin: 50px 5%;
+    min-width: 800px;
+    padding-top: 20px;
+    text-align: center;
+}

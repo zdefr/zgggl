@@ -17,13 +17,13 @@ export default class NavRouter extends Component {
                     <input type="button" value="搜索" className={style.searchButton} />
                 </div>
                 {
-                    person.id===undefined?
+                    person.username===undefined?
                     (<MyNavLink to="/register">注册</MyNavLink>  )
                     :
                     (<NavPerson person = {person}/>)
                 }
                 {
-                    person.id===undefined&&
+                    person.username===undefined&&
                     (<MyNavLink to="/login">登录</MyNavLink>  )
                 }
             </div>

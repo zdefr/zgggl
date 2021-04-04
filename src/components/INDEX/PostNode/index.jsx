@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import style from './index.module.css'
+import icon from './iconfont.module.css'
+import classNames from 'classnames';
 
 export default class index extends Component {
     render() {
@@ -22,6 +24,7 @@ export default class index extends Component {
                     <span className={style.replyCount}>共<strong>{data.replyCount}</strong>层</span>
                     <span className={style.replyCount}>最新回复于<strong>{data.lastReply}</strong></span>
                 </div>
+                <div className={classNames(icon.iconfont, icon.iconStar, style.star)}></div>
             </div>
         )
     }
