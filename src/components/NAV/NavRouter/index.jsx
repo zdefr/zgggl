@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default class NavRouter extends Component {
     render() {
-        const { person } = this.props;
+        const person = JSON.parse(sessionStorage.getItem("token"));
 
         return (
             <div className={style.outer}>
@@ -17,13 +17,13 @@ export default class NavRouter extends Component {
                     <input type="button" value="搜索" className={style.searchButton} />
                 </div>
                 {
-                    person.username===undefined?
+                    (!person)?
                     (<MyNavLink to="/register">注册</MyNavLink>  )
                     :
                     (<NavPerson person = {person}/>)
                 }
                 {
-                    person.username===undefined&&
+                    (!person)&&
                     (<MyNavLink to="/login">登录</MyNavLink>  )
                 }
             </div>

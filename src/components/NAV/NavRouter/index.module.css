@@ -65,4 +65,10 @@
     outline: none;
     border: none;
     padding: 0;
+    color: white;
+}
+
+.searchButton:hover{
+    color: rgb(22, 83, 173);
+    cursor: pointer;
 }

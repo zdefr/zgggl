@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import style from './index.module.css'
 import icon from './iconfont.module.css'
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
+
 
 export default class index extends Component {
     render() {
@@ -12,7 +14,7 @@ export default class index extends Component {
                     <img className={style.shot} src={data.shot} alt="xxxx"/>
                 </div>
                 <div className={style.contentBox}>
-                    <h3>{data.title}</h3>
+                    <Link className={style.title} to={`/post/${data.id}`}>{data.title}</Link>
                     {
                         data.tags.map((item)=>{
                             return <span className={style.tag}>{item}</span>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import style from './index.module.css'
-import classnames from 'classnames'
 import PostNode from '../PostNode'
 
 export default class PostList extends Component {
@@ -12,14 +11,14 @@ export default class PostList extends Component {
                     {list.sort === 'lastModify' ?
                         (
                             <div>
-                                <button className={classnames(style.sortItem, style.active)}>发布时间</button>
+                                <button className={ style.active}>发布时间</button>
                                 <button className={style.sortItem}>热度</button>
                             </div>
                         ) :
                         (
                             <div>
                                 <button className={style.sortItem}>发布时间</button>
-                                <button className={classnames(style.sortItem, style.active)}>热度</button>
+                                <button className={ style.active}>热度</button>
                             </div>
                         )
                     }

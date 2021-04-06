@@ -1,10 +1,35 @@
 .outer{
-    height: 25px;
-    background-color: rgb(60, 123, 206);
-    font-size: 15px;
-    line-height: 25px;
+    height: 40px;
     display: flex;
-    padding: 0;
-    border-bottom: 1px solid white;
-    border-radius: 2px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 10px 10px -10px rgb(236, 236, 236);
+}
+
+.innerBlock{
+    flex: 1 0 auto;
+    color: black;
+    width: 100px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 10px 10px -10px rgb(236, 236, 236);
+}
+
+.innerBlock:hover{
+    box-shadow: 0 10px 10px -10px rgb(106, 158, 255);
+    color: rgb(65, 138, 221);
+}
+
+.active{
+    box-shadow: 0 10px 10px -10px rgb(106, 158, 255);
+    color: rgb(65, 138, 221);
+}
+
+.filler{
+    flex: 1 1 auto;
+    border-bottom: 3px solid rgb(245, 245, 245);
 }

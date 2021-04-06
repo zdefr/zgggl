@@ -1,29 +1,37 @@
 .outer{
     position: relative;
+    background-color: white;
 }
 
 .sortNav{
-    background-color: rgb(90, 124, 218);
     height: 20px;
     line-height: 20px;
-    border-bottom: 1px solid white;
+    color: black;
+    background-color: white;
+    padding: 0 10px 10px 20px;
+    box-shadow: 0 10px 10px -10px rgb(255, 255, 255);
 }
 
 .sortItem{
     outline: none;
     border: none;
     background-color: rgba(0, 0, 0, 0);
-    color: white;
     padding: 0 10px;
 }
 
 .sortItem:hover{
-    background-color: rgb(67, 96, 175);
+    background-color: rgb(162, 180, 231);
+    color: white;
     cursor: pointer;
 }
 
 .active{
-    background-color: rgb(67, 96, 175);
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0 10px;
+    background-color: rgb(162, 180, 231);
+    color: white;
 }
 
 .main{

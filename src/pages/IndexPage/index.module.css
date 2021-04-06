@@ -1,6 +1,7 @@
 .outer{
-    margin-top: 100px;
+    padding: 100px 0px;
     display: flex;
+    background-color: rgb(245, 245, 245);
 }
 
 .aside{
@@ -9,6 +10,6 @@
 
 .main{
     flex: 0 0 auto;
-    width: 50%;
+    width: 45%;
     min-width: 800px;
 }

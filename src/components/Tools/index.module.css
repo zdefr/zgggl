@@ -1,0 +1,36 @@
+.outer{
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    width: 50px;
+    margin-left: 600px;
+}
+
+.toolNode{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 246, 255);
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(152, 209, 255);
+}
+
+.toolNode:hover{
+    background-color: rgb(43, 185, 247);
+    color: white;
+}
+
+.post{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(43, 185, 247);
+    padding: 10px;
+    color: white;
+}
+
+.post:hover{
+    background-color: rgb(25, 123, 165);
+    color: white;
+}

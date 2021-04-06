@@ -2,7 +2,7 @@
     position: relative;
     height: 100px;
     background-color: white;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(233, 233, 233);
     margin-top: 10px;
     display: flex;
     padding: 10px 30px;
@@ -25,15 +25,6 @@
     margin: 10px;
 }
 
-h3{
-    margin: 10px 0;
-}
-
-h3:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 .tag{
     color: grey;
     margin-right: 15px;
@@ -45,7 +36,7 @@ h3:hover{
 }
 
 .author{
-    color: hotpink;
+    color: rgb(25, 172, 177);
     margin-right: 10px;
 }
 
@@ -66,4 +57,20 @@ h3:hover{
     font-size: 30px;
     color: gray;
     display: none;
+}
+
+.title{
+    display: block;
+    outline: none;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title:hover{
+    color: rgb(118, 187, 252);
+    text-decoration: underline;
+    cursor: pointer;
 }
